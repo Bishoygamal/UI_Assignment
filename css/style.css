@@ -1,0 +1,810 @@
+@import url('https://fonts.googleapis.com/css?family=Changa|Roboto');
+body,html{
+	
+    
+    font-family: 'Droid Arabic Kufi';
+}
+
+.container{
+    width:1200px;
+    margin: 10px auto;
+}
+
+/*Start Header*/
+header{
+    height:70px;
+    background: #b6c4c7;
+    position: relative;
+    margin-bottom: 0;    
+}
+header .members{
+    width:20%;
+    float:right;
+    margin:0 10px 0 0; 
+}
+header .members i{
+    color: #771943;
+    margin-left:4px;
+}
+header .members h3{
+    font-weight: bold;
+    color:#303D4D;
+}
+
+header nav{
+    width: 70%;
+    float:left;
+    margin:20px 10px 0 10px;
+          
+}
+header nav input{
+    width:50%;
+    border-radius:4px;
+    border:none;
+    height:35px;
+    float: left;
+    padding:0 10px;
+}
+header nav i{
+    position: absolute;
+    top:25px;
+    left:20px;
+    color: #7C878F;
+}
+
+/*End Header*/
+
+/* Start Main Content*/
+.maincontent{
+    width:100%;
+    background: #E7EBEE;
+    margin:0;
+    padding: 2px 0; ;
+     
+}
+.maincontent .usercard{
+ 
+    width:21%;
+    border:1px solid #ccc;
+    background-color: #fff;
+    border-radius:7px;
+    margin:10px 20px;
+    float: right;
+    position: relative;
+  
+}
+.maincontent .usercard .over{
+    position: absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background-color: #772347;
+    border-radius: 4px;
+    -webkit-transition:all 2s ease-in-out;
+    -moz-transition:all 2s ease-in-out;
+    -o-transition:all 2s ease-in-out;
+    transition:all 2s ease-in-out;
+     display: none;
+  
+    
+}
+.maincontent .usercard:hover .over{
+    display: block;
+}
+
+.maincontent .usercard img{
+    width:60px;
+    height: 60px;
+    border-radius:50%;
+   
+    margin:10px 20px 10px;
+    float:right;
+}
+.maincontent .usercard .img_1{
+    border:2px solid #1abc9c;
+}
+.maincontent .usercard .img_2{
+    border:2px solid #fdcb6e;
+}
+.maincontent .usercard .img_3{
+    border:2px solid #d63031;
+}
+.maincontent .usercard .img_4{
+    border:2px solid #b2bec3;
+}
+
+
+.maincontent .usercard .details h3{
+    font-weight:bold;
+    font-size: 16px;
+    color:#41504e;
+    margin-bottom:0;
+    font-family: 'Droid Arabic Kufi';
+}
+.maincontent .usercard .details p{
+    line-height: 1.5;
+    font-size: 10px;
+    color: #692a50;
+    font-family: 'Droid Arabic Kufi';
+}
+
+.maincontent a {
+    float:left;
+    font-size: 18px;
+    font-weight:400;
+    text-decoration: none;
+    color:#000;
+    margin:0px 40px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.maincontent a:after{
+    content: ' >';
+}
+.maincontent a:hover{
+    margin: 0 30px;
+    font-weight: 400;
+    color: #541022;
+    cursor: pointer;
+    
+}
+
+.maincontent .usercard .over .icons{
+    
+    text-align: center;
+    margin-top:25px;
+}
+.maincontent .usercard .over .icons i{
+    margin:5px;
+    background-color: #541022;
+    border-radius:50%;
+    color:#fff;
+    padding: 5px;
+    font-size:20px;
+    cursor: pointer;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+   
+}
+
+.maincontent .usercard .over .icons i:hover{
+    background-color: #fff;
+    color:#541022;
+}
+.maincontent .usercard .over .icons .fa-star:hover{
+    background-color: #fffa65;
+}
+.maincontent .hid {
+    display: none;
+}
+/*Start Controls*/
+.controls{
+    color:#940644;
+   margin-top:30px;
+    margin-bottom: 30px;
+   
+}
+.controls h3{
+   margin: 0;
+   font-weight: bold;
+}
+/*End Controls*/
+
+/*Start Control Details*/
+.controlsdetails{
+  
+    overflow: hidden;
+    position: relative; 
+}
+
+.controlsdetails .documents{
+     width:30%; 
+    float:right;
+    margin-left: 5%;
+    
+}
+
+.controlsdetails .documents:last-of-type{
+    margin-left: 0;
+}
+
+.controlsdetails .documents .detailshead{
+    width:100%; 
+    background-color: #85046d;
+    color: #fff;
+    height:70px;
+    position: relative;
+    
+}
+
+
+.controlsdetails .documents .detailshead h3{
+    float: right;
+    position: absolute;
+    right:10px;
+    letter-spacing: -2px;
+      
+}
+
+.controlsdetails .documents .detailshead a{
+    float:left;
+    position: absolute;
+    left:10px;
+    top:24px;
+    font-size: 14px;
+    font-weight:400;
+    text-decoration: none;
+    color:#fff;
+   
+  
+}
+.controlsdetails .documents .detailshead a:after{
+    content: ' >';
+}
+.controlsdetails .documents .documentsdetails{
+    padding: 10px;
+    margin-top:10px;
+    background-color: #EEF2F3;
+    width:100%;
+    min-height: 115px;
+    overflow: hidden;
+    position: relative;
+    
+    
+}
+.controlsdetails .documents .documentsdetails .over{
+    position: absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background-color: rgba(70,80,108,.9);
+    display: none; 
+    transition: all 1s ease-in-out;
+    
+}
+
+.controlsdetails .documents .documentsdetails .over .icons{
+    margin-top:5px;
+    text-align: center;
+    position: absolute;
+    top:34%;
+    right:2%;
+    
+}
+.controlsdetails .documents .documentsdetails .over .icons div{
+    float:left;
+    width:20%;
+    margin-right:10px;
+    margin-bottom:10px;
+    
+    
+}
+
+.controlsdetails .documents .documentsdetails .over .icons div:last-of-type{
+    margin-right: 0;
+}
+.controlsdetails .documents .documentsdetails .over .icons div span{
+    margin-right:-15px;
+    color: #fff;
+}
+.controlsdetails .documents .documentsdetails .over .icons div i{
+    margin-left:20px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.controlsdetails .documents .documentsdetails .img{
+    width:25%;
+    height: 100%;
+}
+.controlsdetails .documents .documentsdetails img{
+    float:right;
+    width:60px;
+    height:60px;
+    margin-top:10px;
+}
+.controlsdetails .documents .documentsdetails .details{
+    margin-top:10px;
+    box-sizing: border-box;
+    margin-right: 10px;
+    float: right;
+    width:73%;
+    padding: 5px;
+    
+    
+    
+}
+.controlsdetails .documents .documentsdetails .details p{
+   
+    font-size:13px;
+    color:#57606f;
+}
+.controlsdetails .documents .documentsdetails .details span{
+    font-size:10px;
+    color:#636e72;
+}
+.controlsdetails .documents .documentsdetails .details .name{
+    float:right;
+}
+.controlsdetails .documents .documentsdetails .details .date{
+   float:left; 
+}
+.controlsdetails .documents .documentsdetails:hover .over{
+    display: block;
+}
+@media screen and (max-width:1271px){
+    .container{
+    width:1150px;
+    margin: 8px auto;
+    }
+    .maincontent{
+  
+    padding:4px 3px;
+     
+}
+}
+@media screen and (max-width:1203px){
+    
+.container{
+    width:1100px;
+    margin: 8px auto;
+} 
+.maincontent .usercard img{
+    width:55px;
+    height: 55px;
+    margin:10px 20px 10px;
+    
+}
+.maincontent .usercard .details h3{
+    font-size: 18px;
+
+}
+.maincontent .usercard .details p{
+    line-height: 1.4;
+    font-size: 12px;
+    
+}
+.maincontent a{
+    font-size: 14px;
+    left:16px;
+}
+.controlsdetails .documents .detailshead{
+  
+    height:60px;
+    
+    
+}
+.controlsdetails .documents .detailshead h3{
+
+    right:10px;
+    font-size:18px;
+      
+}
+
+.controlsdetails .documents .detailshead a{
+
+    font-size: 12px;  
+}
+.controlsdetails .documents .documentsdetails{
+    padding: 10px;
+    margin-top:10px;
+    background-color: #EEE;
+    width:100%;
+    min-height: 115px;
+    overflow: hidden;
+    
+}
+
+.controlsdetails .documents .documentsdetails img{
+    width:55px;
+    height:55px;
+    margin-top:8px;
+}
+.controlsdetails .documents .documentsdetails .details{
+    margin-top:10px;
+    margin-right: 8px;
+    
+}
+.controlsdetails .documents .documentsdetails .details p{
+    font-size:11px;
+    
+}
+.controlsdetails .documents .documentsdetails .details span{
+    font-size:10px;
+}
+
+}
+@media screen and (max-width:1154px){
+    
+    .container{
+        width:1050px;
+    }
+    .maincontent .usercard{
+        width:20%;
+    }
+    .maincontent .usercard img{
+    width:50px;
+    height: 50px;
+    margin:10px 20px 10px;
+    
+}
+.maincontent .usercard .details h3{
+    font-size: 14px;
+
+}
+.maincontent .usercard .details p{
+    line-height: 1.4;
+    font-size: 10px;
+    
+}
+.maincontent a{
+    font-size: 10px;
+}
+}
+@media screen and (max-width:1104px){
+    .container{
+        width:1000px;
+    }
+    
+    .maincontent .usercard{
+        width:45%;
+    }
+    .maincontent .usercard .details h3{
+    font-size: 18px;
+
+}
+    .maincontent .usercard .details p{
+    line-height: 1.4;
+    font-size: 12px;
+    margin-top:5px;
+    margin-bottom: 5px;
+    
+}
+    .maincontent a{
+    font-size: 12px;
+}
+}
+@media screen and (max-width:1054px){
+    .container{
+        width: 980px;
+    }
+}
+@media screen and (max-width:1033px){
+    .container{
+        width: 950px;
+        margin:0 auto;
+    }
+    
+}
+@media screen and (max-width:1003px){
+    .container{
+        width: 900px;
+        margin:0 auto;
+    } 
+
+.controlsdetails .documents .documentsdetails .over .icons{
+    margin-bottom:150px;
+    margin-right: 250px;
+    text-align: center;
+    top:25px;
+    right:-300px;
+      
+}
+.controlsdetails .documents .documentsdetails .over .icons div{
+    
+    width:15%;
+    margin-right:20px;
+    margin-bottom:20px;
+    
+}
+
+    
+}
+@media screen and (max-width:937px){
+       .container{
+        width: 850px;
+    }
+    .controlsdetails .documents .documentsdetails{
+    padding: 5px;
+  
+    
+}
+.maincontent .usercard .over .icons i{
+    margin:3px;
+    padding: 3px;
+    font-size:18px;
+      
+}
+    .controlsdetails .documents{
+     width:100%; 
+    
+   
+}
+
+
+.controlsdetails .documents .detailshead{
+    width:100%; 
+    height:70px;
+    margin-top:10px;
+    
+}
+
+.controlsdetails .documents .documentsdetails{
+ 
+    min-height: 100px; 
+    
+}
+
+.controlsdetails .documents .documentsdetails .details p{
+   
+    font-size:18px;
+   
+}
+.controlsdetails .documents .documentsdetails .details span{
+    font-size:12px;
+    
+}
+
+.controlsdetails .documents .documentsdetails .over .icons{
+  
+    top:25px;
+    right:-100px;
+      
+}
+.controlsdetails .documents .documentsdetails .over .icons div{
+    
+    width:15%;
+    margin-right:20px;
+    margin-bottom:20px;
+    
+}
+}
+@media (min-width:557px) and (max-width:886px){
+       .container{
+        width: 100%;
+    }
+    header .members{
+    width:20%;
+    float:right;
+    margin:0 10px 0 0;
+    
+}
+
+    header nav{
+    width: 70%;
+    margin:15px 10px 0 10px;
+          
+}
+    header nav i{
+   
+    top:20px;
+    left:15px;
+}
+  
+.maincontent .usercard{
+ 
+    width:100%;
+    margin:2px 5px;
+    
+   
+}
+.maincontent .usercard img{
+    width:50px;
+    height: 50px;
+
+}
+.maincontent .usercard .details h3{
+
+    font-size: 20px;
+    margin-bottom:2px;
+}
+.maincontent .usercard .details p{
+    line-height: 1.2;
+    
+}
+
+.maincontent a {
+    font-size: 14px;
+    font-weight:300;
+    margin:4px -2px;
+}
+
+.controlsdetails .documents{
+     width:100%; 
+    
+}
+
+.controlsdetails .documents .documentsdetails img{
+   
+    width:40px;
+    height:40px;
+   
+}
+
+.controlsdetails .documents .documentsdetails .details p{
+   
+    font-size:14px;
+    
+}
+.controlsdetails .documents .documentsdetails .over .icons{
+  
+    top:25px;
+    right:-100px;
+      
+}
+.controlsdetails .documents .documentsdetails .over .icons div{
+    
+    width:15%;
+    margin-right:20px;
+    margin-bottom:20px;
+    
+}
+}
+
+@media (min-width:278px) and (max-width:556px){
+    
+        .container{
+                width: 100%;
+            }
+        header{
+            height:90px;
+            background: #AAA;
+            margin-bottom: 0;
+
+        }
+        header .members{
+
+           width:100%;
+        text-align: center;
+        }
+        header .members h3{
+                font-size:14px;
+        }
+            header nav{
+                width:100%;
+                margin:0;    
+            }
+
+        header nav input{
+           width:90%;
+            height:35px;
+            margin-bottom:10px;
+            margin-right: 15px;
+            margin-left:15px;
+
+
+        }
+        header nav i{
+            position: absolute;
+            top:50px;
+            left:20px;
+        }
+
+        /*End Header*/
+
+        /* Start Main Content*/
+
+        .maincontent .usercard{
+
+            width:100%;
+
+            margin:10px auto;
+
+
+        }
+        .maincontent .usercard img{
+            width:40px;
+            height: 40px;
+
+        }
+        .maincontent .usercard .details h3{
+
+            font-size: 14px;
+
+        }
+        .maincontent .usercard .details p{
+            line-height: 1.1;
+            font-size: 10px;
+
+        }
+
+        .maincontent a {
+
+            font-size: 14px;
+
+        }
+
+        .controlsdetails .documents{
+             width:100%; 
+
+        }
+        .controlsdetails .documents .detailshead{
+            width:100%; 
+            color: #fff;
+            height:40px;
+            position: relative;
+
+        }
+
+
+        .controlsdetails .documents .detailshead h3{
+
+            right:10px;
+            font-size: 14px;
+        }
+
+        .controlsdetails .documents .detailshead a{
+
+            left:10px;
+            top:18px;
+            font-size: 12px;
+
+
+
+        }
+
+        .controlsdetails .documents .documentsdetails{
+            padding: 8px;
+            margin-top:8px;
+            width:100%;
+            min-height: 115px;
+
+
+        }
+        .controlsdetails .documents .documentsdetails .img{
+            width:25%;
+            height: 100%;
+            float:right;
+        }
+        .controlsdetails .documents .documentsdetails img{
+            float:right;
+            width:40px;
+            height:40px;
+            margin-top:10px;
+        }
+        .controlsdetails .documents .documentsdetails .details{
+            margin-top:10px;
+            width:60%;
+            padding: 5px;
+
+
+
+        }
+        .controlsdetails .documents .documentsdetails .details p{
+
+            font-size:12px;
+
+        }
+        .controlsdetails .documents .documentsdetails .details span{
+            font-size:7px;
+
+            margin-bottom: 5px;
+        }
+
+        .controlsdetails .documents .documentsdetails .over .icons{
+            margin-top:5px;
+            text-align: center;
+            right:-250px;
+
+        }
+        .controlsdetails .documents .documentsdetails .over .icons div{
+            float:left;
+            width:20%;
+            margin-right:2px;
+            margin-bottom:10px;
+
+        }
+
+        .controlsdetails .documents .documentsdetails .over .icons div i{
+            margin-left:20px;
+            font-size: 20px;
+        }
+
+
+    }
